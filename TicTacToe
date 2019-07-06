@@ -24,8 +24,6 @@ public class TicTacToe {
 	char c1;
 	char c2;
 	char c3;
-	
-	//int y;
 		
 	Scanner input = new Scanner (System.in);
 	
