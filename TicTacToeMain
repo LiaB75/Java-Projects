@@ -16,23 +16,23 @@ public class TTT {
 		
 		newGame.printUpdatedGrid();
 		newGame.MoveO();
-		
-		newGame.MoveX();
+				
 		newGame.printUpdatedGrid();
+		newGame.MoveX();
 		
+		newGame.printUpdatedGrid();
 		newGame.MoveO();
-		newGame.printUpdatedGrid();
 		
+		newGame.printUpdatedGrid();
 		newGame.MoveX();
-		newGame.printUpdatedGrid();
 		
+		newGame.printUpdatedGrid();
 		newGame.MoveO();
-		newGame.printUpdatedGrid();
 		
+		newGame.printUpdatedGrid();
 		newGame.MoveX();
-		newGame.printUpdatedGrid();
-		
 
+		newGame.printUpdatedGrid();
 	}
 
 }
