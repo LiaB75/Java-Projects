@@ -17,8 +17,6 @@ public class TTT {
 		newGame.printUpdatedGrid();
 		newGame.MoveO();
 		
-		newGame.printUpdatedGrid();
-		
 		newGame.MoveX();
 		newGame.printUpdatedGrid();
 		
@@ -31,8 +29,9 @@ public class TTT {
 		newGame.MoveO();
 		newGame.printUpdatedGrid();
 		
-		newGame.MoveO();
+		newGame.MoveX();
 		newGame.printUpdatedGrid();
+		
 
 	}
 
