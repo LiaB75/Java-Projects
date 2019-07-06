@@ -7,7 +7,7 @@
  * disclaimer: still a work in progress, need to add looping, invalid input
  * check, taken spot check, check for win, end game.
  * Do realize an array makes more sense, working with what I know so far
- * and I can say this is 100% my own work.
+ * 
  ****************************************************************************/
 
 import java.util.Scanner;
