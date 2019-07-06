@@ -1,1 +1,111 @@
-//TicTacToe game will go here
+/***************************************************************************
+ * 
+ * Lia Brophy
+ * CP Student Sem 1
+ * TicTacToe - not using array
+ * July 2019
+ *
+ ****************************************************************************/
+
+import java.util.Scanner;
+public class TicTacToe {
+	
+	int playerX;
+	int playerO;
+	char a1;
+	char a2;
+	char a3;
+	char b1;
+	char b2;
+	char b3;
+	char c1;
+	char c2;
+	char c3;
+	
+	//int y;
+		
+	Scanner input = new Scanner (System.in);
+	
+	//initialize grid positions
+	public TicTacToe() {
+		this.playerX=playerX;
+		this.playerO=playerO;
+		this.a1='1';
+		this.a2='2';
+		this.a3='3';
+		this.b1='4';
+		this.b2='5';
+		this.b3='6';
+		this.c1='7';
+		this.c2='8';
+		this.c3='9';
+		
+	}
+	// print grid 
+	public void printGrid() {
+	System.out.println(" ************************");
+	System.out.println("  Welcome to Tic Tac Toe");
+    System.out.println(" ************************");
+    System.out.println("       "+a1+" | "+a2+" | "+a3);
+   	System.out.println("      ---+---+---");
+   	System.out.println("       "+b1+" | "+b2+" | "+b3);
+   	System.out.println("      ---+---+---");
+   	System.out.println("       "+c1+" | "+c2+" | "+c3);
+   	
+	}
+	//input player X move
+	public void MoveX() {
+		System.out.println("\rPlayer X choose your position:");
+		playerX = input.nextInt();
+			if (playerX == 1) 
+				a1='X';
+			else if (playerX == 2)
+				a2='X';
+			else if (playerX == 3)
+				a3='X';
+			else if (playerX == 4)
+				b1='X';
+			else if (playerX == 5)
+				b2='X';
+			else if (playerX == 6)
+				b3='X';
+			else if (playerX == 7)
+				c1='X';
+			else if (playerX == 8)
+				c2='X';
+			else if (playerX == 9)
+				c3='X';
+		}
+	//input player O move
+	public void MoveO() {
+		System.out.println("\rPlayer O choose your position:");
+		playerO = input.nextInt();
+			if (playerO == 1) 
+				a1='O';
+			else if (playerO == 2)
+				a2='O';
+			else if (playerO == 3)
+				a3='O';
+			else if (playerO == 4)
+				b1='O';
+			else if (playerO == 5)
+				b2='O';
+			else if (playerO == 6)
+				b3='O';
+			else if (playerO == 7)
+				c1='O';
+			else if (playerO == 8)
+				c2='O';
+			else if (playerO == 9)
+				c3='O';
+		}
+	//print updated grid 
+	public void printUpdatedGrid() {
+	System.out.println("       "+a1+" | "+a2+" | "+a3);
+   	System.out.println("      ---+---+---");
+   	System.out.println("       "+b1+" | "+b2+" | "+b3);
+   	System.out.println("      ---+---+---");
+   	System.out.println("       "+c1+" | "+c2+" | "+c3);
+	
+}
+}
