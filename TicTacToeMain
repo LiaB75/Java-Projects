@@ -1,0 +1,39 @@
+public class TTT {
+
+	public static void main(String[] args) {
+		
+		// create a game using no-arg constructor
+		TicTacToe newGame=new TicTacToe();
+		
+		newGame.printGrid();
+		newGame.MoveX();
+		
+		newGame.printUpdatedGrid();
+		newGame.MoveO();
+		
+		newGame.printUpdatedGrid();
+		newGame.MoveX();
+		
+		newGame.printUpdatedGrid();
+		newGame.MoveO();
+		
+		newGame.printUpdatedGrid();
+		
+		newGame.MoveX();
+		newGame.printUpdatedGrid();
+		
+		newGame.MoveO();
+		newGame.printUpdatedGrid();
+		
+		newGame.MoveX();
+		newGame.printUpdatedGrid();
+		
+		newGame.MoveO();
+		newGame.printUpdatedGrid();
+		
+		newGame.MoveO();
+		newGame.printUpdatedGrid();
+
+	}
+
+}
